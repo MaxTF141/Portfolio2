@@ -12,25 +12,22 @@
     box-sizing: border-box;
 }
 
+        /* UNIVERSAL*/
+nav a:hover {
+    color: var(--secondaryColor);
+}        
+/* INDEX.HTML FILE */
 li a{
     text-decoration: none;
     color: white;
     padding: 3px;
 }
-
-a:hover {
-    color: var(--primaryColor);
-    background-color: var(--secondaryColor);
-    border-radius: 30px;
-    padding: 2px;
-}
-
-#landing {
+nav{
     background-color: var(--primaryColor);
-    min-height: 100vh;
+}
+.showcase {
+    background-color: var(--primaryColor);
+    min-height: 95vh;
 }
 
-.showcase {
-    min-height: 100vh;
-}
 
