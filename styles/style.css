@@ -15,8 +15,9 @@
         /* UNIVERSAL*/
 nav a:hover {
     color: var(--secondaryColor);
-}        
-/* INDEX.HTML FILE */
+}
+
+        /* INDEX */
 li a{
     text-decoration: none;
     color: white;
@@ -30,4 +31,30 @@ nav{
     min-height: 95vh;
 }
 
+        /* RESUME */
+#resume {
+    background-color: var(--primaryColor);
+    min-height: 95vh;
 
+}
+#about {
+    background-color: var(--primaryColor);
+    min-height: 95vh;
+
+}
+
+        /* About */
+#about img {
+    border-radius: 60%;
+}
+.card p {
+    color: var(--primaryColor);
+}
+
+@media screen and (max-width: 720px) and (min-width:300px) {
+    #about img {
+        display: none;
+    }
+    
+    
+}
