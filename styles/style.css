@@ -31,11 +31,20 @@ nav{
 }
 #landing {
     background-color: var(--primaryColor);
-    min-height: 95vh;
-    display: flex;
-    align-items: center;
+    min-height: 90vh;
 }
 
+        /* About */
+#about {
+    background-color: var(--primaryColor);
+    min-height: 90vh;
+}
+#about img {
+    border-radius: 60%;
+}
+.card p {
+color: var(--primaryColor);
+}
         /* RESUME */
 #resume {
     background-color: var(--primaryColor);
@@ -45,17 +54,6 @@ nav{
     background-color: var(--secondaryColor);
 }
 
-        /* About */
-#about {
-    background-color: var(--primaryColor);
-    min-height: 95vh;
-}
-#about img {
-    border-radius: 60%;
-}
-.card p {
-    color: var(--primaryColor);
-}
 
 /* @media screen and (max-width: 720px) and (min-width:300px) {
     #about img {
