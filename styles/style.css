@@ -1,7 +1,7 @@
 :root {
     --primaryColor:#0c3047;
-    --secondaryColor:#5aaf80;
-    --tertiaryColor:white;
+    --secondaryColor:#198754;
+    --whiteColor:white;
 }
 
 *,
@@ -16,6 +16,9 @@
 nav a:hover {
     color: var(--secondaryColor);
 }
+nav a:active {
+    color: black;
+}
 
         /* INDEX */
 li a{
@@ -26,24 +29,27 @@ li a{
 nav{
     background-color: var(--primaryColor);
 }
-.showcase {
+#landing {
     background-color: var(--primaryColor);
     min-height: 95vh;
+    display: flex;
+    align-items: center;
 }
 
         /* RESUME */
 #resume {
     background-color: var(--primaryColor);
     min-height: 95vh;
-
 }
-#about {
-    background-color: var(--primaryColor);
-    min-height: 95vh;
-
+#resume .card {
+    background-color: var(--secondaryColor);
 }
 
         /* About */
+#about {
+    background-color: var(--primaryColor);
+    min-height: 95vh;
+}
 #about img {
     border-radius: 60%;
 }
@@ -51,10 +57,25 @@ nav{
     color: var(--primaryColor);
 }
 
-@media screen and (max-width: 720px) and (min-width:300px) {
+/* @media screen and (max-width: 720px) and (min-width:300px) {
     #about img {
         display: none;
-    }
-    
-    
+    }    
+} */
+
+        /* SKILLS */
+#skills {
+    background-color: var(--primaryColor);
+    min-height: 60vh;
+}
+#skills .progress {
+    margin: 10px;
+}
+#skills h6 {
+    color: white;
+    padding-left: 10px;
+}
+        /* FOOTER */
+footer {
+    background-color: var(--secondaryColor);
 }
