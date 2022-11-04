@@ -74,8 +74,7 @@ nav{
         /* PROJECTS */
 #projects {
     background-color: var(--primaryColor);
-    min-height: 90vh;
-    min-width: 100vw;
+    min-height: 88vh;
     overflow: none;
 }
 /* Flip Card */
@@ -84,6 +83,8 @@ nav{
     width: 400px;
     height: 300px;
     perspective: 1000px;
+    max-width: 100%;
+    max-height: auto;
 }
 
 .flip-card-inner {
