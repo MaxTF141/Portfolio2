@@ -14,14 +14,13 @@
 }
 
         /* NAVBAR*/
-
-nav a {
+a {
     letter-spacing: 2px;
 }
-nav a:hover {
+a:hover {
     color: var(--secondaryColor);
 }
-nav a:active {
+a:active {
     color: black;
 }
 
