@@ -59,7 +59,7 @@ nav{
     background-color: var(--secondaryColor);
 }
 
-/* SKILLS */
+        /* SKILLS */
 #skills {
     background-color: var(--primaryColor);
     min-height: 40vh;
@@ -76,6 +76,8 @@ nav{
 #projects {
     background-color: var(--primaryColor);
     min-height: 90vh;
+    min-width: 100vw;
+    overflow: none;
 }
 /* Flip Card */
 .flipCard1, .flipCard2, .flipCard3 {
@@ -94,7 +96,7 @@ nav{
     transform-style: preserve-3d;
 }
 
-        /*FRONT CARD*/
+/*FRONT CARD*/
 .front {
     background-color: #bbb;
     color: black;
@@ -112,7 +114,7 @@ nav{
     min-width: 100%;
 }
 
-        /* BACK CARD */
+/* BACK CARD */
 .back {
     color: white;
     transform: rotateY(180deg);
@@ -167,10 +169,7 @@ transform: rotateY(180deg);
 .hello{
     width: 350px; 
 }
-
-  
-
-        /* TESTIMONIALS */
+     /* TESTIMONIALS */
 #testimonials {
     min-height: 95vh;
     background-color: var(--primaryColor);
@@ -186,6 +185,12 @@ transform: rotateY(180deg);
 
 } */
 
+        /* CONTACT */
+#contact {
+    min-height: 90vh;
+    background-color:var(--primaryColor);
+    overflow: hidden;
+}
 
         /* FOOTER */
 footer {
