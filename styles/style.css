@@ -14,6 +14,12 @@
 }
 
         /* NAVBAR*/
+.navbar {
+    background-color: var(--primaryColor);
+}
+.logo {
+    width: 12em;
+}
 a {
     letter-spacing: 2px;
 }
@@ -23,8 +29,11 @@ a:hover {
 a:active {
     color: black;
 }
+.offcanvas {
+    background-color: var(--primaryColor);
+}
 
-        /* INDEX */
+        /* LANDING */
 li a{
     text-decoration: none;
     color: white;
@@ -35,16 +44,21 @@ nav{
 }
 #landing {
     background-color: var(--primaryColor);
-    min-height: 90vh;
+    padding-top: 20px;
+    min-height: 81vh;
 }
-
+#landing i {
+    display: block;
+    scale: 2;
+}
         /* About */
 #about {
     background-color: var(--primaryColor);
+    padding-top: 20px;
     min-height: 90vh;
 }
 #about img {
-    border-radius: 60%;
+    border-radius: 5%;
 }
 .card p {
     color: var(--primaryColor);
@@ -52,6 +66,7 @@ nav{
         /* RESUME */
 #resume {
     background-color: var(--primaryColor);
+    padding-top: 20px;
     min-height: 95vh;
 }
 #resume .card {
@@ -61,6 +76,7 @@ nav{
         /* SKILLS */
 #skills {
     background-color: var(--primaryColor);
+    padding-top: 20px;
     min-height: 40vh;
 }
 /* #skills .progress {
@@ -74,7 +90,8 @@ nav{
         /* PROJECTS */
 #projects {
     background-color: var(--primaryColor);
-    min-height: 88vh;
+    padding-top: 20px;
+    min-height: 80vh;
     overflow: none;
 }
 /* Flip Card */
@@ -171,8 +188,9 @@ transform: rotateY(180deg);
 }
      /* TESTIMONIALS */
 #testimonials {
-    min-height: 95vh;
     background-color: var(--primaryColor);
+    min-height: 80vh;
+    
 }
 #carousel {
     height: 100vh;
@@ -187,10 +205,15 @@ transform: rotateY(180deg);
 
         /* CONTACT */
 #contact {
-    min-height: 90vh;
     background-color:var(--primaryColor);
+    min-height: 90vh;
     overflow: hidden;
 }
+#contact i {
+    display: block;
+    scale: 2;
+}
+
 
         /* FOOTER */
 footer {

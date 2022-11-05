@@ -12,47 +12,59 @@
     <title>Portfolio | Maxwill</title>
 </head>
 <body>
+
     <!-- HEADER AND NAVBAR-->
-    <nav class="navbar navbar-expand-lg py-3 sticky-top">
-        <div class="container-fluid d-flex justify-content-between">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="px-3"><a href="../index.html">HOME</a></li>
-                    <li class="px-3"><a href="about.html">ABOUT</a></li>
-                    <li class="px-3"><a href="resume.html">RESUME</a></li>
-                    <li class="px-3"><a href="projects.html">PROJECTS</a></li>
-                    <li class="px-3"><a href="testimonials.html">TESTIMONIALS</a></li>
-                    <li class="px-3"><a href="contact.html">CONTACT</a></li>
-                </ul>
-            </div>
-            <a class="logo" href="index.html"><img src="#" alt="logo"></a>
-        </div>
-    </nav>
+            <nav class="navbar navbar-dark sticky-top">
+                <div class="container-fluid">
+                    <a href="index.html"><img  class="logo" src="../assets/images/logo2.png" alt="logo"></a>
+                  <button class="navbar-toggler bg-success" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title text-white" id="offcanvasDarkNavbarLabel">Navigation Bar</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="px-3"><a href="../index.html">HOME</a></li>
+                        <li class="px-3"><a href="about.html">ABOUT</a></li>
+                        <li class="px-3"><a href="resume.html">RESUME</a></li>
+                        <li class="px-3"><a href="projects.html">PROJECTS</a></li>
+                        <li class="px-3"><a href="testimonials.html">TESTIMONIALS</a></li>
+                        <li class="px-3"><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                    </div>
+                  </div>
+                </div>
+              </nav>
     <section id="contact">
         <h5 class="display-5 text-center text-success py-4">CONTACT ME</h5>
         <div class="container-fluid my-auto">
             <div class="row">
-                <div class="col-12 col-lg-6 pt-lg-5 mt-lg-5 ps-lg-5">
+                <div class="col-12 col-lg-6 ps-lg-5">
                     <h6 class="display-6 text-lg-start text-center text-success">GET IN TOUCH</h6>
                     <p class="lead text-lg-start text-center text-light w-lg-50 w-100 mx-auto ms-lg-1 pb-3">You can contact me by filling in the form on this page or via the contact information.</p>
-                        <div class="contact-icons d-flex justify-content-lg-start justify-content-center">
-                            <i class="bi bi-phone-fill text-success pe-2 pt-1"></i><p class="lead text-light">+27 67 274 6346</p>
-                        </div>
-                        <div class="contact-icons d-flex justify-content-lg-start justify-content-center">
-                            <i class="bi bi-envelope-open-fill text-success pe-2 pt-1"></i><p class="lead text-light">isaacsmaxwill22@gmail.com</p>
+                        <div class="contact-icons d-flex justify-content-lg-start py-2 justify-content-center">
+                            <i class="bi bi-phone-fill text-success pt-1"></i>
+                            <p class="lead text-light ps-3">+27 67 274 6346</p> 
                         </div>
                         <div class="contact-icons d-flex justify-content-lg-start py-2 justify-content-center">
-                            <i class="bi bi-facebook text-success pe-2 pt-1"></i><p class="lead text-light">https://www.facebook.com/maxwill.isaacs.9v</p>
+                            <i class="bi bi-envelope-open-fill text-success pt-1"></i>
+                            <p class="lead text-light ps-3">isaacsmaxwill22@gmail.com</p>
                         </div>
                         <div class="contact-icons d-flex justify-content-lg-start py-2 justify-content-center">
-                            <i class="bi bi-instagram text-success pe-2 pt-1"></i><p class="lead text-light">https://www.instagram.com/maxisaacs_22/</p> 
+                            <a href="https://www.facebook.com/maxwill.isaacs.9"><i class="bi bi-facebook text-success pt-1"></i>
+                            </a>
+                            <p class="lead text-light ps-3">My FACEBOOK</p> 
+                        </div>
+                        <div class="contact-icons d-flex justify-content-lg-start py-2 justify-content-center">
+                            <a href="https://www.instagram.com/maxisaacs_22/"><i class="bi bi-instagram text-success pt-1"></i></a>
+                            <p class="lead text-light ps-3">My INSTAGRAM</p> 
                         </div>
                 </div>
                 <div class="col-12 col-lg-6 pt-lg-5 mt-lg-5 text-center">
-                    <h5></h5>
+                    <h6 class="display-6 text-success">CONTACT FORM</h6>
                     <form action="https://formspree.io/f/xlevokwe" method="post">
                         <!-- 2 column grid layout with text inputs for the first and last names -->
                         <div class="row mb-4">
